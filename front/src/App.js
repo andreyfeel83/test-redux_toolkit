@@ -1,6 +1,7 @@
 import BookList from './components/BookList/BookList'
 import BookForm from './components/BookForm/BookForm'
 import Filter from './components/Filter/Filter'
+import ErrorForm from './components/ErrorForm/ErrorForm';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <BookList/>
         </div>
       </main>
+      <ErrorForm/>
     </div>
   );
 }
